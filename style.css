@@ -1,0 +1,495 @@
+/* Author: Abdulrahman Amin
+   Date: 15/7/2021
+   Mobile: 01225185096
+   Email: abdoamin.web@gmail.com
+*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 20px;
+    color: #b1b4bd;
+    background-color: #323a45;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    color: #b1b4bd;
+    font-weight: 500;
+}
+a:hover{
+    color: yellow;
+}
+.header-background{
+    position: static;
+    display: block;
+    overflow: visible;
+    top: 0;
+    height: auto;
+    min-height: 600px;
+    padding-bottom: 70px;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(50,85,69,0.9)));
+    background-image: linear-gradient(180deg,rgba(50,85,69,0.55),rgba(50,85,69,0.74)) , url(images/siana.jpg);
+    flex-direction: column;
+    background-position: 0px, 0px, 100% 50%;
+    background-size: auto, cover;
+    white-space: normal;
+    object-fit: fill;
+    -o-object-fit: fill;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+}
+.sticky-nav{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    padding: 7px 0px;
+    padding-left: 20px;
+    z-index: 1;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order:0;
+    -ms-flex-order: 0;
+    order: 0;
+    background-color: rgba(12,32,59,0.5);
+}
+.navbar .navbar-brand a{
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: white;
+}
+.navbar-brand{
+    margin-top: -10px;
+    font-size: 2.2rem;
+    color: yellow;    
+}
+.navbar-toggler{
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+}
+.navbar-toggler span + span{
+    margin-top: 4px;
+    width: 22px;
+}
+.navbar-toggler span + span + span{
+    width: 22px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 1.2rem;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active{
+    color: yellow;
+}
+.nav-link{
+    text-align: right;
+    color: white;
+    margin: 0px 10px;
+}
+.nav-link:hover{
+    color: yellow;
+}
+.main-nav{
+    position: relative;
+    padding: 10px 0px;
+}
+.navbar-nav{
+    position: absolute;
+    right: 0px;
+}
+.header-text-con{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 240px;
+}
+.header-text{
+    width: 60%;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    font-size: 50px;
+    text-shadow:1.5px 1.5px black;
+}
+
+.card{
+    margin: auto;
+    width: 18rem;
+}
+.marks-text{
+    width: 100%;
+    text-align: center;
+    color: rgb(12, 32, 59);
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+.welcome-box{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-bottom: -8px;
+    position: relative;
+}
+.welcome-text{
+    width: 100%;
+    position: absolute;
+    top: 240px;
+    text-align: center;
+    color: black;
+}
+.btn-con{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+}
+.marks-btn{
+    border: none;
+    box-shadow: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(12, 32, 59);
+    color: white;
+    transition: all 0.5s ease;
+}
+.marks-btn:hover{
+    background-color: yellow;
+    color: rgb(12, 32, 59);
+}
+.down{
+    width: 100%;
+    text-align: center;
+}
+.down-arrow{
+    position: absolute;
+    top: 540px;
+    font-size: 40px;
+}
+.top-paragraph{
+    width: 100%;
+    padding-top: 20px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+.top-paragraph-title{
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.top-paragrph-text{
+    margin: auto;
+    width: 50%;
+    line-height: 30px;
+}
+.text-mother{
+    width: 100%;
+    color: black;
+    background-color: white;
+}
+.down-text-con{
+    width: 80%;
+}
+.down-text-col{
+    position: relative;
+    width: 45%;
+    margin: 20px;
+    text-align: right;
+}
+.down-paragraph-title{
+    font-weight: 900;
+    margin: 5px 40px 30px 0px;
+}
+#down-icon{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 5px;
+    color: rgb(12, 32, 59);
+    background-color: yellow;
+    transition: all 0.5s ease;
+}
+.col:hover #down-icon{
+    color: yellow;
+    background-color: rgb(12, 32, 59);
+}
+.num-section{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 60px 0px;
+    border-top: 3px rgb(12, 32, 59) solid;
+}
+.num-container{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4,1fr);
+}
+.counter{
+    margin-top: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+.ask{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+.ask-title{
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+.ask-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(12, 32, 59);
+    color: white;
+    box-shadow: none;
+    transition: all 0.5s ease;
+}
+.ask-btn:hover{
+    background-color: yellow;
+    color: rgb(12, 32, 59);
+}
+.last-part{
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+    background-color: white;
+    color: black;
+}
+.last-part a{
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    width: 90px;
+}
+.last-container{
+    width: 100%;
+    text-align: right;
+}
+.last-title , .last-menu{
+    font-weight: 900;
+}
+.last-info{
+    position: relative;
+}
+.last-contents{
+    position: absolute;
+    width: 100px;
+    top: 15px;
+    right: 5px;
+    text-align: right;
+    margin: 20px;
+}
+.phone-icon{
+    position: absolute;
+    right: 0px;
+}
+.phone-text{
+    position: absolute;
+    right: 30px;
+}
+.wats-icon{
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    font-size: 25px;
+}
+.wats-text{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.last-a a:hover{
+    text-decoration:underline;
+    font-weight: bolder;
+}
+.rights{
+    border: none;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    height: 50px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+
+
+
+#arrow-up{
+    position: fixed;
+    z-index: 1000000;
+    right: 10px;           
+    border: 2px solid white;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.788);
+    border-radius: 50%;
+    font-size: 40px;
+    transition: all 0.5s ease;
+    color: rgb(12, 32, 59);
+}
+#arrow-up:hover{
+    color: yellow;
+    background-color: white;           
+}
+
+@media only screen and (max-width: 1026px){
+    .down-text-col{
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 991px){
+    .sticky-nav{
+        padding: 0px;
+        padding-left: 20px;
+    }
+    .main-nav{
+        position: unset;
+    }
+    .navbar-nav{
+        position: unset;
+    }
+    .nav-link{
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .header-text, .top-paragrph-text{
+        width: 80%;
+    }
+    #first{
+        color: yellow;
+    }
+    #last{
+        color: white;
+    }
+    #last:hover{
+        color: yellow
+    }
+    .album-con{
+        margin: 10px 40px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .header-text{
+        font-size: 30px;
+    }
+    .top-paragrph-text{
+        width: 98%;
+    }
+    .card{
+        width: 14rem;
+    }
+    .album-con{
+        width: 14rem;
+        margin: 10px 10px;
+    }
+    .down-text-col{
+        width: 70%;
+    }
+    .num-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .counter{
+        margin: 20px 0px;
+    }
+    .num-container > div:nth-of-type(1), .num-container > div:nth-of-type(2){
+        border-bottom: 2px rgb(12, 32, 59) solid;
+        margin: 0px 30px;
+    }
+}
+@media only screen and (max-width: 512px){
+    .header-text{
+        width: 98%;
+        font-size: 30px;
+    }
+    .album-con{
+        margin: auto;
+        margin-top: 10px;
+    }
+    .header-background{
+        position: static;
+        display: block;
+        overflow: visible;
+        top: 0;
+        height: auto;
+        min-height: 600px;
+        padding-bottom: 70px;
+        background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(50,85,69,0.9)));
+        background-image: linear-gradient(180deg,rgba(50,85,69,0.55),rgba(50,85,69,0.74)) , url(images/siana.jpg);
+        flex-direction: column;
+        background-position: 0px, -100px, 100% 50%;
+        background-size: auto, cover;
+        white-space: normal;
+        object-fit: fill;
+        -o-object-fit: fill;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    }
+    .down-text-col{
+        width: 99%;
+        margin-bottom: 40px;
+    }
+    .down-paragraph-title{
+        margin-bottom: 10px;
+    }
+    .num-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .num-container > div:nth-of-type(1), .num-container > div:nth-of-type(2), .num-container > div:nth-of-type(3){
+        border-bottom: 2px rgb(12, 32, 59) solid;
+        margin: 0px 50px;
+    }
+
+}
+@media only screen and (max-width: 400px){
+    .last-info{
+        margin: 80px auto;
+    }
+    .last-row{
+        display: block;
+    }
+    .last-part{
+        height: 400px;
+        padding: 5px 0px;
+        border: unset;
+    }
+    .rights{
+        background-color: white;
+        padding: 15px;
+    }
+    .rights h4{
+        background-color: white;
+        font-size: 16px;
+    }
+}

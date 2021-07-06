@@ -292,6 +292,10 @@ a:hover{
     margin-bottom: 10px;
     width: 90px;
 }
+.last-a a{
+    width: 50px;
+    margin-right: -10px;
+}
 .last-container{
     width: 100%;
     text-align: right;
@@ -309,6 +313,9 @@ a:hover{
     right: 5px;
     text-align: right;
     margin: 20px;
+}
+.last-a{
+    right: -30px;
 }
 .phone-icon{
     position: absolute;

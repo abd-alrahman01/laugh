@@ -220,6 +220,10 @@ a:hover{
     margin-bottom: 10px;
     width: 90px;
 }
+.last-a a{
+    width: 50px;
+    margin-right: -10px;
+}
 .last-container{
     width: 100%;
     text-align: right;
@@ -237,6 +241,9 @@ a:hover{
     right: 5px;
     text-align: right;
     margin: 20px;
+}
+.last-a{
+    right: -30px;
 }
 .phone-icon{
     position: absolute;
@@ -283,9 +290,7 @@ a:hover{
     color: yellow;
     background-color: white;           
 }
-@media only screen and (max-width: 1026px){
-    
-}
+
 @media only screen and (max-width: 991px){
     .sticky-nav{
         padding: 0px;
@@ -394,8 +399,5 @@ a:hover{
     }
     .wats button{
         margin-top: 10px;
-    }
-    .last-a a{
-        width: 100px;
     }
 }

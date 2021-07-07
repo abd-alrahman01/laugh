@@ -1,0 +1,403 @@
+/* Author: Abdulrahman Amin
+   Date: 15/7/2021
+   Mobile: 01225185096
+   Email: abdoamin.web@gmail.com
+*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 20px;
+    color: #b1b4bd;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    color: #b1b4bd;
+    font-weight: 500;
+}
+a:hover{
+    color: yellow;
+}
+.header-background{
+    position: static;
+    display: block;
+    overflow: visible;
+    top: 0;
+    height: auto;
+    min-height: 350px;
+    padding-bottom: 10px;
+    flex-direction: column;
+}
+.sticky-nav{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    padding: 7px 0px;
+    padding-left: 20px;
+    z-index: 1;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order:0;
+    -ms-flex-order: 0;
+    order: 0;
+    background-color: rgba(12,32,59);
+}
+.navbar .navbar-brand a{
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: white;
+}
+.navbar-brand{
+    margin-top: -10px;
+    font-size: 2.2rem;
+    color: yellow;    
+}
+.navbar-toggler{
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+}
+.navbar-toggler span + span{
+    margin-top: 4px;
+    width: 22px;
+}
+.navbar-toggler span + span + span{
+    width: 22px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 1.2rem;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active{
+    color: yellow;
+}
+.nav-link{
+    text-align: right;
+    color: white;
+    margin: 0px 10px;
+}
+.nav-link:hover{
+    color: yellow;
+}
+.main-nav{
+    position: relative;
+    padding: 10px 0px;
+}
+.navbar-nav{
+    position: absolute;
+    right: 0px;
+}
+.header-text-con{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 100px;
+}
+.header-text{
+    width: 60%;
+    color: black;
+    font-weight: bold;
+    margin: auto;
+    font-size: 50px;
+    text-shadow:1.5px 1.5px white;
+}
+.album-con{
+    margin: 10px;
+    width: 14rem;
+    border-radius: 50%;
+    transition: all 0.5s ease ;
+}
+.album{
+    transition: all 1s ease ;
+}
+.card{
+    border: none;
+    border-radius: 50%;
+    margin: auto;
+    width: 14rem;
+    transition: all 0.5s ease ;
+}
+.img{
+    border-radius: 50%;
+    transition: all 0.5s ease ;
+}
+
+/*----contactus.html----*/
+.contact{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.contact-us{
+    padding: 40px;
+    width: 100%;
+    background-color: #ffd500;
+    color: rgba(12,32,59);
+}
+.contact-us h1, .wats h1{
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+.contact-us a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.wats{
+    width: 100%;
+    padding: 70px;
+    background-color: rgb(12, 32, 59);
+    color: #ffd500;
+}
+.wats button{
+    background-color: #ffd500;
+    color: rgb(12, 32, 59);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+.wats button:hover{
+    background-color: #b1b4bd;
+    color: #ffd500;
+}
+/*----contactus.html----*/
+
+
+.ask{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+.ask-title{
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+.ask-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(12, 32, 59);
+    color: white;
+    box-shadow: none;
+    transition: all 0.5s ease;
+}
+.ask-btn:hover{
+    background-color: yellow;
+    color: rgb(12, 32, 59);
+}
+.last-part{
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+    background-color: white;
+    color: black;
+}
+.last-part a{
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    width: 90px;
+}
+.last-a a{
+    width: 50px;
+    margin-right: -10px;
+}
+.last-container{
+    width: 100%;
+    text-align: right;
+}
+.last-title , .last-menu{
+    font-weight: 900;
+}
+.last-info{
+    position: relative;
+}
+.last-contents{
+    position: absolute;
+    width: 100px;
+    top: 15px;
+    right: 5px;
+    text-align: right;
+    margin: 20px;
+}
+.last-a{
+    right: -30px;
+}
+.phone-icon{
+    position: absolute;
+    right: 0px;
+}
+.phone-text{
+    position: absolute;
+    right: 30px;
+}
+.wats-icon{
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    font-size: 25px;
+}
+.wats-text{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.last-a a:hover{
+    text-decoration:underline;
+    font-weight: bolder;
+}
+.rights{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    color: black;
+}
+#arrow-up{
+    position: fixed;
+    z-index: 1000000;
+    right: 10px;           
+    border: 2px solid white;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.788);
+    border-radius: 50%;
+    font-size: 40px;
+    transition: all 0.5s ease;
+    color: rgb(12, 32, 59);
+}
+#arrow-up:hover{
+    color: yellow;
+    background-color: white;           
+}
+
+@media only screen and (max-width: 991px){
+    .sticky-nav{
+        padding: 0px;
+        padding-left: 20px;
+    }
+    .main-nav{
+        position: unset;
+    }
+    .navbar-nav{
+        position: unset;
+    }
+    .nav-link{
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .header-text, .top-paragrph-text{
+        width: 80%;
+    }
+    #first{
+        color: yellow;
+    }
+    #last{
+        color: white;
+    }
+    #last:hover{
+        color: yellow
+    }
+    .album-con{
+        margin: 10px 40px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .header-text{
+        font-size: 30px;
+    }
+    .top-paragrph-text{
+        width: 98%;
+    }
+    .card{
+        width: 14rem;
+    }
+    .album-con{
+        width: 14rem;
+        margin: 10px 10px;
+    }
+    .down-text-col{
+        width: 70%;
+    }
+    .num-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .counter{
+        margin: 20px 0px;
+    }
+    .num-container > div:nth-of-type(1), .num-container > div:nth-of-type(2){
+        border-bottom: 2px rgb(12, 32, 59) solid;
+        margin: 0px 30px;
+    }
+}
+@media only screen and (max-width: 512px){
+    .header-text{
+        width: 98%;
+        font-size: 30px;
+    }
+    .album-con{
+        margin: auto;
+        margin-top: 10px;
+    }
+    .down-text-col{
+        width: 99%;
+        margin-bottom: 40px;
+    }
+    .down-paragraph-title{
+        margin-bottom: 10px;
+    }
+    .num-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .num-container > div:nth-of-type(1), .num-container > div:nth-of-type(2), .num-container > div:nth-of-type(3){
+        border-bottom: 2px rgb(12, 32, 59) solid;
+        margin: 0px 50px;
+    }
+
+}
+@media only screen and (max-width: 400px){
+    .last-info{
+        margin: 80px auto;
+    }
+    .last-row{
+        display: block;
+    }
+    .last-part{
+        height: 400px;
+        padding: 5px 0px;
+        border: unset;
+    }
+    .rights{
+        background-color: white;
+        padding: 15px;
+    }
+    .rights h4{
+        font-size: 16px;
+    }
+    .wats h1, .contact-us h1{
+        font-size: 20px;
+    }
+    .wats button{
+        margin-top: 10px;
+    }
+}

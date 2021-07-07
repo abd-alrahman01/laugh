@@ -471,6 +471,9 @@ a:hover{
     .down-paragraph-title{
         margin-bottom: 10px;
     }
+    .down{
+        width: 94%;
+    }
     .num-container{
         grid-template-columns: repeat(1,1fr);
     }

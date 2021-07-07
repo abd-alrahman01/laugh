@@ -278,7 +278,7 @@ a:hover{
     color: rgb(12, 32, 59);
 }
 .last-part{
-    width: 100%;
+    width: 97%;
     height: 200px;
     padding-top: 50px;
     background-color: white;
@@ -499,5 +499,8 @@ a:hover{
     .rights h4{
         background-color: white;
         font-size: 16px;
+    }
+    .down{
+        width: 94%;
     }
 }

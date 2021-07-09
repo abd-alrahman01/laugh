@@ -235,6 +235,16 @@ a:hover{
     color: yellow;
     background-color: rgb(12, 32, 59);
 }
+.fm-album{
+    padding: 100px;
+}
+.fm-card{
+    border: none;
+}
+.card-text{
+    text-align: center;
+    color: black;
+}
 .num-section{
     width: 100%;
     background-color: white;
@@ -369,7 +379,25 @@ a:hover{
     color: yellow;
     background-color: white;           
 }
-
+#ph-icon{
+    position: fixed;
+    left: 10px;
+    bottom: 55px;
+    color: white;
+    background: #1ebbf0;
+    padding: 10px;
+    border-radius: 50%;
+}
+#wa-icon{
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    color: white;
+    background: rgb(6, 202, 6);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+}
 @media only screen and (max-width: 1026px){
     .down-text-col{
         margin: auto;
@@ -471,9 +499,6 @@ a:hover{
     .down-paragraph-title{
         margin-bottom: 10px;
     }
-    .down{
-        width: 94%;
-    }
     .num-container{
         grid-template-columns: repeat(1,1fr);
     }
@@ -481,7 +506,12 @@ a:hover{
         border-bottom: 2px rgb(12, 32, 59) solid;
         margin: 0px 50px;
     }
-
+    .down{
+        width: 94%;
+    }
+    .fm-card{
+        margin-bottom: 40px;
+    }
 }
 @media only screen and (max-width: 400px){
     .last-info{

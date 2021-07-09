@@ -145,7 +145,7 @@ a:hover{
     text-align: center;
 }
 .contact-us{
-    padding: 40px;
+    padding: 70px;
     width: 100%;
     background-color: #ffd500;
     color: rgba(12,32,59);
@@ -290,7 +290,25 @@ a:hover{
 #arrow-up:hover{
     color: yellow;           
 }
-
+#ph-icon{
+    position: fixed;
+    left: 10px;
+    bottom: 55px;
+    color: white;
+    background: #1ebbf0;
+    padding: 10px;
+    border-radius: 50%;
+}
+#wa-icon{
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    color: white;
+    background: rgb(6, 202, 6);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+}
 @media only screen and (max-width: 991px){
     .sticky-nav{
         padding: 0px;

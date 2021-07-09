@@ -236,10 +236,12 @@ a:hover{
     background-color: rgb(12, 32, 59);
 }
 .fm-album{
-    padding: 100px;
+    padding: 100px 0px;
+    margin: auto;
 }
 .fm-card{
     border: none;
+    width: 18rem;
 }
 .card-text{
     text-align: center;
@@ -535,5 +537,8 @@ a:hover{
     }
     .down{
         width: 94%;
+    }
+    .fm-card img{
+        width: 14rem;
     }
 }
